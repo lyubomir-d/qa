@@ -7,7 +7,11 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 public class d2Array {
-    public static int[][] gen2DArray(Number n) {
+    public static int[][] gen2DArray(int n) {
+        if(n < 1) {
+            System.out.println("Размерность матрицы может быть только положительной");
+            return null;
+        }
         int [][] arr = new int[(int) n][(int) n];
 
         for (int i=0;i < arr.length;i++){

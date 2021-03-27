@@ -11,6 +11,7 @@ import static org.junit.Assert.assertNotEquals;
 public class d2ArrayTest {
     @Test
     public void testGen2DArray() {
+        assertEquals(0, gen2DArray(0).length);
         assertEquals(4, gen2DArray(4).length);
         assertNotEquals(gen2DArray(4), gen2DArray(4));
     }
