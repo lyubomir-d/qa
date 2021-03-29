@@ -14,6 +14,7 @@ public class ReverseStrTest {
         assertEquals("", getReverseStr1(""));
         assertEquals("a", getReverseStr1("a"));
         assertEquals("1a", getReverseStr1("a1"));
+        assertEquals("1a!", getReverseStr1("!a1"));
 
         assertNotEquals("тест", getReverseStr1("тест"));
     }
@@ -23,6 +24,7 @@ public class ReverseStrTest {
         assertEquals("", getReverseStr2(""));
         assertEquals("a", getReverseStr2("a"));
         assertEquals("1a", getReverseStr2("a1"));
+        assertEquals("1a!", getReverseStr1("!a1"));
 
         assertNotEquals("тест", getReverseStr2("тест"));
     }
