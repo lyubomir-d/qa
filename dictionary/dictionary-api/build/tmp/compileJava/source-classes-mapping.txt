@@ -1,0 +1,4 @@
+com/example/dictionaryapi/DictionaryApiApplication.java
+ com.example.dictionaryapi.DictionaryApiApplication
+com/example/dictionaryapi/controller/ArticlesController.java
+ com.example.dictionaryapi.controller.ArticlesController
